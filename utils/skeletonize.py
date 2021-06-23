@@ -6,6 +6,8 @@ striaes must be respected, holes must not be inserted). While some papers use Ro
 simplicity. [https://airccj.org/CSCP/vol7/csit76809.pdf pg.91] I used skimage Zha84 A fast parallel algorithm for
 thinning digital patterns, T. Y. Zhang and C. Y. Suen, Communications of the ACM, March 1984, Volume 27, Number 3.
 """
+
+
 import numpy as np
 import cv2 as cv
 from utils.crossing_number import calculate_minutiaes
